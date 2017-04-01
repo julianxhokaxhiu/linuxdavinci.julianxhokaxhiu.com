@@ -196,52 +196,5 @@
     <![endif]-->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
-    <!-- AddThis Smart Layers BEGIN -->
-    <script type="text/javascript">
-        var addthis_config = addthis_config||{};
-        addthis_config.data_track_clickback = false;
-    </script>
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-5287f48c1c0b99f0"></script>
-    <script type="text/javascript">
-        addthis.layers({
-            'theme' : 'transparent',
-            'share' : {
-              'position' : 'left',
-              'numPreferredServices' : 5,
-              'services': 'facebook,twitter,google_plusone_share,linkedin,more'
-            }
-        });
-
-        // Set current year
-        var currentDate = new Date();
-        $('#credits-year').text( currentDate.getFullYear() );
-
-        // Get package list
-        var packageList = $('#package-list');
-        $.get('/data/packages.json', function (data){
-          for ( var k in data ) {
-            packageList
-            .append(
-              $('<p>')
-              .addClass('list-group-item')
-              .append(
-                $('<label>')
-                .text( data[k].name )
-              )
-              .append(
-                $('<span>')
-                .addClass('text-muted')
-                .text( data[k].description )
-              )
-              .append(
-                $('<span>')
-                .addClass('badge')
-                .text( data[k].version )
-              )
-            );
-          }
-        })
-    </script>
-    <!-- AddThis Smart Layers END -->
   </body>
 </html>
