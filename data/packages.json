@@ -1,0 +1,122 @@
+[
+    {
+        "name": "KDE",
+        "description": "Desktop Manager",
+        "version": "3.5.9",
+        "url": ""
+    },
+    {
+        "name": "Slapt-Get",
+        "description": "Package Manager",
+        "version": "0.9.12e",
+        "url": ""
+    },
+    {
+        "name": "GSlapt",
+        "description": "Slapt-Get GUI",
+        "version": "0.4.0",
+        "url": ""
+    },
+    {
+        "name": "Mozilla Firefox",
+        "description": "Internet Browser",
+        "version": "3.0.3",
+        "url": ""
+    },
+    {
+        "name": "Wine",
+        "description": "Windows on Unix",
+        "version": "1.1.5",
+        "url": ""
+    },
+    {
+        "name": "Codeblocks",
+        "description": "C\\C++ IDE",
+        "version": "8.02",
+        "url": ""
+    },
+    {
+        "name": "Mono",
+        "description": ".NET Compiler on Unix",
+        "version": "1.9.1",
+        "url": ""
+    },
+    {
+        "name": "Python",
+        "description": "",
+        "version": "2.5.2",
+        "url": ""
+    },
+    {
+        "name": "DosBox",
+        "description": "MS-DOS on Unix",
+        "version": "0.72",
+        "url": ""
+    },
+    {
+        "name": "PgAdmin3",
+        "description": "Postgres Admin Control Panel",
+        "version": "1.8.4",
+        "url": ""
+    },
+    {
+        "name": "PostgreSQL",
+        "description": "SQL Database",
+        "version": "8.3.4",
+        "url": ""
+    },
+    {
+        "name": "Gambas",
+        "description": "Visual Basic IDE on Unix",
+        "version": "2.8.2",
+        "url": ""
+    },
+    {
+        "name": "Borland C",
+        "description": "MS-DOS C\\C++ IDE",
+        "version": "3.1",
+        "url": ""
+    },
+    {
+        "name": "Windows Asm",
+        "description": "MS-DOS Assembler Compiler",
+        "version": "6.0.6000",
+        "url": ""
+    },
+    {
+        "name": "Windows TAsm",
+        "description": "MS-DOS Turbo Assembler Compiler",
+        "version": "3.1",
+        "url": ""
+    },
+    {
+        "name": "Windows TLink",
+        "description": "MS-DOS Turbo Assembler Linker",
+        "version": "5.1",
+        "url": ""
+    },
+    {
+        "name": "XAMPP",
+        "description": "Web Development",
+        "version": "1.6.6",
+        "url": ""
+    },
+    {
+        "name": "Samba",
+        "description": "CIFS\\SMB Network on Unix",
+        "version": "3.0.32",
+        "url": ""
+    },
+    {
+        "name": "Smb4K",
+        "description": "Network Discover over SMB on Unix",
+        "version": "0.9.6",
+        "url": ""
+    },
+    {
+        "name": "JFE",
+        "description": "Windows C\\C++ IDE",
+        "version": "",
+        "url": ""
+    }
+]
